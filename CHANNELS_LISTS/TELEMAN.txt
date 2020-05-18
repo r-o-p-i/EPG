@@ -1,0 +1,141 @@
+13 Ulica|13-Ulica|
+AMC|AMC|
+ATM Rozrywka|ATM-Rozrywka|
+AXN|AXN|
+AXN Black|AXN-Black|
+AXN Spin|AXN-Spin|
+AXN White|AXN-White|
+Animal Planet|Animal-Planet-HD|
+BBC Brit|BBC-Brit|
+BBC Earth|BBC-Earth|
+BBC First|BBC-First|
+BBC Lifestyle|BBC-Lifestyle|
+Boomerang|Boomerang|
+CANAL+ 1|CanalPlus-1|
+CANAL+ 4K|CanalPlus-4K|
+CANAL+ Dokument|CanalPlus-Dokument|
+CANAL+ Family|CanalPlus-Family|
+CANAL+ Film|CanalPlus-Film|
+CANAL+ Premium|CanalPlus|
+CANAL+ Seriale|CanalPlus-Seriale|
+CANAL+ Sport|CanalPlus-Sport|
+CANAL+ Sport 2|CanalPlus-Sport-2|
+CANAL+ Sport 3|CanalPlus-Sport-3|
+CANAL+ Sport 4|CanalPlus-Sport-4|
+CBS Europa|CBS-Europa|
+CBS Reality|CBS-Reality|
+CI Polsat|Crime-Investigation-Network|
+Cartoon Network|Cartoon-Network|
+Cinemax|Cinemax|
+Cinemax 2|Cinemax2|
+Comedy Central|Comedy-Central|
+DTX|DTX|
+Discovery Channel|Discovery-Channel|
+Discovery Historia|Discovery-Historia|
+Discovery Life|Discovery-Life|
+Discovery Science|Discovery-Science|
+Disney Channel|Disney-Channel|
+Disney Junior|Disney-Junior|
+Disney XD|Disney-XD|
+Domo+|Domo|
+Eleven Sports 1|Eleven-Sports-1|
+Eleven Sports 2|Eleven-Sports-2|
+Eleven Sports 3|Eleven-Sports-3|
+Eleven Sports 4|Eleven-4|
+Epic Drama|Epic-Drama|
+Eurosport 1|Eurosport|
+Eurosport 2|Eurosport-2|
+Extreme|Extreme|
+FOX|FOX|
+FOX Comedy|FOX-Comedy|
+FilmBox Arthouse|FilmBox-Arthouse|
+FilmBox Extra HD|Filmbox-Extra-HD|
+FilmBox Family|Filmbox-Family|
+FilmBox Premium HD|Filmbox-Premium|
+Filmbox Action|Filmbox-Action|
+Fokus TV|Fokus-TV|
+Food Network|Food-Network|
+HBO|HBO|
+HBO 2|HBO2|
+HBO 3|HBO3|
+HGTV|HGTV|
+HISTORY|History|
+HISTORY 2|H2|
+ID|ID|
+Kino Polska|Kino-Polska|
+Kino TV|Kino%20TV|
+Kuchnia+|Kuchnia-TV|
+MTV Polska|MTV-Polska|
+Metro TV|Metro-TV|
+Mezzo|Mezzo|
+MiniMini+|MiniMini|
+Nat Geo People|Nat-Geo-People|
+Nat. Geo. Wild|Nat-Geo-Wild|
+National Geo.|National-Geographic|
+Nickelodeon|Nickelodeon|
+Nicktoons|Nicktoons|
+Nowa TV|Nowa-TV|
+PLANETE+|Planete|
+Paramount Channel|Paramount-Channel|
+Polonia 1|Polonia-1|
+Polsat|Polsat|
+Polsat 2|Polsat-2|
+Polsat Cafe|Polsat-Cafe|
+Polsat Comedy C. E.|Comedy-Central-Family|
+Polsat Doku|Polsat-Doku|
+Polsat Film|Polsat-Film|
+Polsat Games|Polsat-Games|
+Polsat News|Polsat-News|
+Polsat Play|Polsat-Play|
+Polsat Rodzina|Polsat-Rodzina|
+Polsat Seriale|Polsat-Seriale|
+Polsat Sport|Polsat-Sport|
+Polsat Sport Extra|Polsat-Sport-Extra|
+Polsat Sport Fight|Polsat-Sport-Fight|
+Polsat Sport News|Polsat-Sport-News|
+Polsat Sport Premium 1|Polsat-Sport-Premium-1|
+Polsat Sport Premium 2|Polsat-Sport-Premium-2|
+Polsat Viasat Explore|Viasat-Explorer|
+Polsat Viasat History|Viasat-History|
+Polsat Viasat Nature|Viasat-Nature|
+Romance TV|Romance-TV|
+SCI FI|SCI-FI|
+SportKlub|SportKlub|
+Stopklatka|Stopklatka-TV|
+Sundance TV|Sundance-Channel-HD|
+Super Polsat|Super-Polsat|
+Superstacja|Superstacja|
+TLC|TLC|
+TNT|TNT|
+TTV|TTV|
+TV 4|TV4|
+TV 6|TV6|
+TV Puls|Puls|
+TV Puls 2|Puls-2|
+TV Republika|TV-Republika|
+TV Trwam|TV-Trwam|
+TVN|TVN|
+TVN 7|TVN-Siedem|
+TVN Fabuła|TVN-Fabula|
+TVN Style|TVN-Style|
+TVN Turbo|TVN-Turbo|
+TVN24|TVN24|
+TVN24 BiS|TVN-24-Biznes-i-Swiat|
+TVP 1|TVP-1|
+TVP 2|TVP-2|
+TVP ABC|TVP-ABC|
+TVP HD|TVP-HD|
+TVP Historia|TVP-Historia|
+TVP Info|TVP-Info|
+TVP Kultura|TVP-Kultura|
+TVP Polonia|TVP-Polonia|
+TVP Rozrywka|TVP-Rozrywka|
+TVP Seriale|TVP-Seriale|
+TVP Sport|TVP-Sport|
+TVS|TVS|
+Tele 5|Tele-5|
+Travel|Travel-Channel|
+WP|WP|
+Zoom TV|Zoom-TV|
+ale kino+|Ale-Kino|
+nSport+|nSport|

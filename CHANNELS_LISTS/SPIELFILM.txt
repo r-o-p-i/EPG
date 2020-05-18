@@ -1,0 +1,208 @@
+123.tv|123TV|123tv,123TV|
+13th Street|13TH|13th-street,13TH|
+3+|3PLUS|3,3PLUS|
+3sat|3SAT|3sat,3SAT|
+ANIXE|ANIXE|anixe,ANIXE|
+ARD-alpha|ALPHA|ard-alpha,ALPHA|
+ARTE|ARTE|arte,ARTE|
+ATV|ATV|atv,ATV|
+ATV Avrupa|ATV-A|atv-avrupa,ATV-A|
+ATV II|ATV2|atv-ii,ATV2|
+AXN|AXN|axn,AXN|
+Adult Channel|ADULT|adult-channel,ADULT|
+Al Jazeera|ALJAZ|al-jazeera,ALJAZ|
+Animal Planet|APLAN|animal-planet,APLAN|
+Auto Motor und Sport|AMS|auto-motor-und-sport,AMS|
+BBC Entertainment|BBC-E|bbc-entertainment,BBC-E|
+BBC Four|BBC4|bbc-four,BBC4|
+BBC News|BBC-N|bbc-news,BBC-N|
+BBC One|BBC1|bbc-one,BBC1|
+BBC Two|BBC2|bbc-two,BBC2|
+BBC World News|BBC|bbc-world-news,BBC|
+BR|BR|br,BR|
+Beate-Uhse.TV|BUTV|beate-uhsetv,BUTV|
+Belgien 1|BE1|belgien-1,BE1|
+Bibel TV|BIBEL|bibel-tv,BIBEL|
+Bloomberg Europe TV|BLM|bloomberg-europe-tv,BLM|
+Blue Movie|BLUM|blue-movie,BLUM|
+Blue Movie 2|BLUM2|blue-movie-2,BLUM2|
+Blue Movie 3|BLUM3|blue-movie-3,BLUM3|
+BonGusto|GUSTO|bongusto,GUSTO|
+CNBC|CNBC|cnbc,CNBC|
+CNN International|CNN|cnn-international,CNN|
+CNN Money|CNN-M|cnn-money,CNN-M|
+CNN Türk|CNN-T|cnn-tuerk,CNN-T|
+COMEDY CENTRAL|CC|comedy-central,CC|
+Canal+|CPLUS|canal,CPLUS|
+Canal+ Cinéma|CPLUSC|canal-cinma,CPLUSC|
+Canal+ Décalé|CPLUSD|canal-dcal,CPLUSD|
+Canal+ Sport|CPLUSS|canal-sport,CPLUSS|
+Canale 5|C5|canale-5,C5|
+Cartoon Network|C-NET|cartoon-network,C-NET|
+Channel21|CH21|channel21,CH21|
+Classica|CLASS|classica,CLASS|
+Crime + Investigation|CRIN|crime-investigation,CRIN|
+DAZN|DAZN|dazn,DAZN|
+DELUXE MUSIC|DMC|deluxe-music,DMC|
+DMAX|DMAX|dmax,DMAX|
+DR1|DR1|dr1,DR1|
+DW (Europe)|DWTV|dw-europe,DWTV|
+Das Erste|ARD|das-erste,ARD|
+Deutsches Musik Fernsehen|DMF|deutsches-musik-fernsehen,DMF|
+Discovery HD|HDDIS|discovery-hd,HDDIS|
+Disney Channel|DISNE|disney-channel,DISNE|
+Disney Junior|DJUN|disney-junior,DJUN|
+E! Entertainment|E!|e-entertainment,E!|
+EXTREME SPORTS|EX-SP|extreme-sports,EX-SP|
+Euro D|EURO-D|euro-d,EURO-D|
+Euro Star|EURO-S|euro-star,EURO-S|
+Eurosport 1|EURO|eurosport-1,EURO|
+Eurosport 2|EURO2|eurosport-2,EURO2|
+FIX &amp; FOXI|FFTV|fix-und-foxi,FFTV|
+FOX|FOX|fox,FOX|
+Fashion TV|FATV|fashion-tv,FATV|
+Fine Living Network|FLN|fine-living-network,FLN|
+France 2|FRA2|france-2,FRA2|
+France 24 (engl.)|FR24E|france-24-engl,FR24E|
+France 24 (franz.)|FR24F|france-24-franz,FR24F|
+France 3|FRA3|france-3,FRA3|
+France 4|FRA4|france-4,FRA4|
+France 5|FRA5|france-5,FRA5|
+France Ô|FRAO|france-,FRAO|
+GEO Television|GEO|geo-television,GEO|
+GoldStar TV|GOLD|goldstar-tv,GOLD|
+Gute Laune TV|LAUNE|gute-laune-tv,LAUNE|
+HISTORY HD|HISHD|history-hd,HISHD|
+HR|HR|hr,HR|
+HSE24|HSE|hse24,HSE|
+Hamburg 1|HH1|hamburg-1,HH1|
+Health TV|HEALTH|health-tv,HEALTH|
+Heimatkanal|HEIMA|heimatkanal,HEIMA|
+Home &amp; Garden TV|HGTV|home-und-garden-tv,HGTV|
+Jukebox|JUKE|jukebox,JUKE|
+Junior|JUNIO|junior,JUNIO|
+K-TV|KTV|k-tv,KTV|
+KiKA|KIKA|kika,KIKA|
+KinoweltTV|KINOW|kinowelttv,KINOW|
+LUST PUR|LUSTP|lust-pur,LUSTP|
+Leipzig Fernsehen|LEITV|leipzig-fernsehen,LEITV|
+MDR|MDR|mdr,MDR|
+MTV|MTV|mtv,MTV|
+MTV Base|MTV-B|mtv-base,MTV-B|
+MTV Dance|MTV-D|mtv-dance,MTV-D|
+MTV Hits|MTV-H|mtv-hits,MTV-H|
+MTV Live HD|MTV-L|mtv-live-hd,MTV-L|
+Marco Polo TV|MAPO|marco-polo-tv,MAPO|
+Mezzo|MEZZO|mezzo,MEZZO|
+Motorvision TV|MOVTV|motorvision-tv,MOVTV|
+N24 Doku|N24DOKU|n24-doku,N24DOKU|
+NAT GEO WILD|N-GW|nat-geo-wild,N-GW|
+NDR|N3|ndr,N3|
+NHK WORLD TV|NHK|nhk-world-tv,NHK|
+NITRO|RTL-N|nitro,RTL-N|
+NOW US|NOWUS|now-us,NOWUS|
+National Geographic HD|N-GHD|national-geographic-hd,N-GHD|
+Nautical Channel|NAUCH|nautical-channel,NAUCH|
+Nick Jr.|NICKJ|nick-jr,NICKJ|
+Nicktoons|NICKT|nicktoons,NICKT|
+ONE|FES|one,FES|
+ORF 2|ORF2|orf-2,ORF2|
+ORF III|ORF3|orf-iii,ORF3|
+ORF SPORT +|ORFSP|orf-sport-,ORFSP|
+ORF eins|ORF1|orf-eins,ORF1|
+PHOENIX|PHOEN|phoenix,PHOEN|
+PLANET|PLANE|planet,PLANE|
+PULS 4|PULS4|puls-4,PULS4|
+PULS acht|PULS8|puls-acht,PULS8|
+Playboy TV|PBOY|playboy-tv,PBOY|
+ProSieben|PRO7|prosieben,PRO7|
+ProSieben Fun|PRO7F|prosieben-fun,PRO7F|
+ProSieben MAXX|PRO7M|prosieben-maxx,PRO7M|
+QVC|QVC|qvc,QVC|
+QVC2|QVCP|qvc2,QVCP|
+RBB|RBB|rbb,RBB|
+RCK TV|RCK|rck-tv,RCK|
+RTL|RTL|rtl,RTL|
+RTL Crime|RTL-C|rtl-crime,RTL-C|
+RTL II|RTL2|rtl-ii,RTL2|
+RTL Living|RTL-L|rtl-living,RTL-L|
+RTL Passion|PASS|rtl-passion,PASS|
+RTLplus|RTLPL|rtlplus,RTLPL|
+Rhein-Neckar Fernsehen|RNF|rhein-neckar-fernsehen,RNF|
+RiC|RIC|ric,RIC|
+Rocket Beans TV|RBTV|rocket-beans-tv,RBTV|
+Romance TV|ROM|romance-tv,ROM|
+SAT.1|SAT1|sat1,SAT1|
+SAT.1 Gold|SAT1G|sat1-gold,SAT1G|
+SAT.1 emotions|SAT1E|sat1-emotions,SAT1E|
+SPIEGEL Geschichte|SP-GE|spiegel-geschichte,SP-GE|
+SPIEGEL TV WISSEN|SPTVW|spiegel-tv-wissen,SPTVW|
+SPORT1|SPORT|sport1,SPORT|
+SPORT1+|S1PLU|sport1,S1PLU|
+SRF 1|SF1|srf-1,SF1|
+SRF zwei|SF2|srf-zwei,SF2|
+STAR TV|STTV|star-tv,STTV|
+SUPER RTL|SUPER|super-rtl,SUPER|
+SWR/SR|SWR|swrsr,SWR|
+ServusTV Deutschland|SERVU|servustv-deutschland,SERVU|
+Show Turk|SHOT|show-turk,SHOT|
+Silverline|SILVE|silverline,SILVE|
+Sky 1|SKY1|sky-1,SKY1|
+Sky Action|SKY-A|sky-action,SKY-A|
+Sky Atlantic HD|SKYAT|sky-atlantic-hd,SKYAT|
+Sky Bundesliga|BULI|sky-bundesliga,BULI|
+Sky Cinema Best Of|SKY-H|sky-cinema-best-of,SKY-H|
+Sky Cinema Classics|SKY-N|sky-cinema-classics,SKY-N|
+Sky Cinema Fun|SKY-C|sky-cinema-fun,SKY-C|
+Sky Cinema Premieren|CIN|sky-cinema-premieren,CIN|
+Sky Cinema Premieren +24|CIN24|sky-cinema-premieren-24,CIN24|
+Sky Cinema Special HD|SKYCS|sky-cinema-special-hd,SKYCS|
+Sky Cinema Thriller HD|SKYTH|sky-cinema-thriller-hd,SKYTH|
+Sky Family|SKY-F|sky-family,SKY-F|
+Sky Krimi|SKY-K|sky-krimi,SKY-K|
+Sky Sport Austria|SPO-A|sky-sport-austria,SPO-A|
+Sky Sport HD 1|HDSPO|sky-sport-hd-1,HDSPO|
+Sky Sport HD 2|SHD2|sky-sport-hd-2,SHD2|
+Sky Sport News HD|SNHD|sky-sport-news-hd,SNHD|
+Sky select|SKY-S|sky-select,SKY-S|
+Sony Channel|SONY|sony-channel,SONY|
+Syfy|SCIFI|syfy,SCIFI|
+TELE 5|TELE5|tele-5,TELE5|
+TLC|TLC|tlc,TLC|
+TNT Comedy|TNT-C|tnt-comedy,TNT-C|
+TNT Film|TNT-F|tnt-film,TNT-F|
+TNT Serie|TNT-S|tnt-serie,TNT-S|
+TOGGO plus|TOGGO|toggo-plus,TOGGO|
+TV2|TV2|tv2,TV2|
+TV5 Monde|TV5|tv5-monde,TV5|
+Trace TV|TRACE|trace-tv,TRACE|
+Turkmax Gurme|TMAX|turkmax-gurme,TMAX|
+UHD1|UHD1|uhd1,UHD1|
+Universal Channel HD|UNIVE|universal-channel-hd,UNIVE|
+VH1 Classic|VH1|vh1-classic,VH1|
+VOX|VOX|vox,VOX|
+VOXup|VOXUP|voxup,VOXUP|
+WDR|WDR|wdr,WDR|
+WELT|WELT|welt,WELT|
+Welt der Wunder TV|WDWTV|welt-der-wunder-tv,WDWTV|
+ZDF|ZDF|zdf,ZDF|
+ZDFinfo|ZINFO|zdfinfo,ZINFO|
+ZDFneo|2NEO|zdfneo,2NEO|
+Zee.One|ZEE-1|zeeone,ZEE-1|
+eSports1|ES1|esports1,ES1|
+eoTV|EOTV|eotv,EOTV|
+euronews|EURON|euronews,EURON|
+kabel eins|K1|kabel-eins,K1|
+kabel eins CLASSICS|K1CLA|kabel-eins-classics,K1CLA|
+kabel eins Doku|K1DOKU|kabel-eins-doku,K1DOKU|
+münchen.tv|TVM|muenchentv,TVM|
+n-tv|NTV|n-tv,NTV|
+nick/MTV+|NICK|nickmtv,NICK|
+oe24.TV|OE24TV|oe24tv,OE24TV|
+rheinmain tv|RMTV|rheinmain-tv,RMTV|
+sixx|SIXX|sixx,SIXX|
+sonnenklar TV|SKLAR|sonnenklar-tv,SKLAR|
+sportdigital Fussball|SPO-D|sportdigital-fussball,SPO-D|
+tagesschau 24|TAG24|tagesschau-24,TAG24|
+travelxp 4K|TRAVELXP|travelxp-4k,TRAVELXP|
+tv.berlin|TVB|tvberlin,TVB|

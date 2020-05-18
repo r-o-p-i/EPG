@@ -1,0 +1,566 @@
+4Music|1758|
+4seven|3150|
+5 USA|3022|
+5SELECT|3028|
+5STAR|3023|
+5STAR+1|3024|
+5USA+1|3027|
+92 News|3822|
+A1TV|1104|
+AAJ TAK|3255|
+ABP News|5416|
+ARY Family|4265|
+ATN|6753|
+Aastha|3594|
+Absolute|2901|
+Absolute 80s|4373|
+Absolute 90s|4372|
+Abu Dhabi TV|3209|
+Adult Channel|4195|
+Ahlebait TV|6765|
+Ahlulbayt TV|3701|
+Akaal Channel|5087|
+Al Jazeera Eng|3107|
+Al Jazeera HD|1023|
+Animal Planet|2402|
+Animal Plnt+1|1352|
+AnimalPlnt HD|3813|
+Arirang TV HD|1066|
+Arise News|5040|
+B4U Movies|5703|
+B4U Music|5708|
+BBC 6 Music|2127|
+BBC ALBA|2012|
+BBC Asian|2120|
+BBC Cymru 2|2021|
+BBC Four|2018|
+BBC Four HD|2086|
+BBC NEWS|2011|
+BBC NEWS HD|2085|
+BBC One CI|2074|
+BBC One E Mid|2105|
+BBC One East E|2106|
+BBC One East W|2073|
+BBC One HD|2076|
+BBC One Lon|2002|
+BBC One N West|2102|
+BBC One NE&C|2155|
+BBC One NI|2005|
+BBC One NI HD|2081|
+BBC One Oxford|2156|
+BBC One S East|2152|
+BBC One S West|2154|
+BBC One Scot|2004|
+BBC One ScotHD|2082|
+BBC One South|2153|
+BBC One W Mid|2101|
+BBC One Wal HD|2083|
+BBC One Wales|2003|
+BBC One West|2151|
+BBC One Yk&Li|2103|
+BBC One Yorks|2104|
+BBC Parliament|2072|
+BBC R Cymru|2123|
+BBC R Foyle|2124|
+BBC R Scot.|2117|
+BBC R Ulster|2119|
+BBC R Wales|2118|
+BBC R n Gael|2129|
+BBC R1|2111|
+BBC R1X|2126|
+BBC R2|2112|
+BBC R3|2113|
+BBC R4 Ex|2128|
+BBC R4 FM|2114|
+BBC R4 LW|2115|
+BBC R5L|2026|
+BBC R5SX|2034|
+BBC RB 1|2051|
+BBC RLondon|2130|
+BBC Scotland|1137|
+BBC Two|2006|
+BBC Two HD|2075|
+BBC Two NI|2017|
+BBC Two Wal HD|3015|
+BBC Two Wales|2015|
+BBC WS|2122|
+BBCScotlandHD|1138|
+BEN|3208|
+BET:BlackEntTv|3719|
+BFBS Radio|3371|
+BLAZE|1065|
+BT Sport 1|3661|
+BT Sport 1 HD|3625|
+BT Sport 2|3663|
+BT Sport 2 HD|3627|
+BT Sport 3|5032|
+BT Sport 3 HD|3629|
+BT Sport//ESPN|3141|
+BTSBoxOffWWE|1218|
+BTSpt//ESPNHD|4040|
+BTSptBoxOffHD|6014|
+Babenation|3400|
+BabyTV|3645|
+Best Direct|4100|
+Bloomberg HD|1074|
+Boomerang|5609|
+Boomerang HD|4030|
+Boomerang+1|5603|
+Box Hits|1350|
+BoxNation|3417|
+Brit Asia TV|3653|
+British Muslim|5417|
+Browse Shop|8025|
+CBBC|2020|
+CBBC HD|2078|
+CBS Drama|3617|
+CBS Justice|4610|
+CBS Reality|3352|
+CBS Reality+1|3602|
+CBeebies|2019|
+CBeebies HD|2088|
+CGTN|3211|
+CGTN HD|1048|
+CHSTV|3815|
+CITV|6273|
+CN+1|5610|
+CNBC|3611|
+CNBC HD|1088|
+CNN|5602|
+CNN HD|1019|
+COLORS|3714|
+COLORS HD|1372|
+Capital|2908|
+Capital XTRA|2971|
+Cartoon Net HD|4077|
+Cartoon Netwrk|5601|
+Cartoonito|1371|
+Celebration TV|1206|
+Challenge|2202|
+Challenge+1|4332|
+Channel 4|1621|
+Channel 4 HD|4075|
+Channel 4+1|1670|
+Channel 44|5359|
+Channel 5|1800|
+Channel 5 HD|4058|
+Channel 5+1|1839|
+Channel 7|3687|
+Channels 24|5520|
+Chl Line-up|1850|
+Classic FM|3470|
+Classic Rock|4371|
+Climax|4192|
+Club MTV|2507|
+Clubland TV|4505|
+ColorsCineplex|1105|
+ColorsRishtey|3916|
+ComedyCent+1|3802|
+ComedyCentHD|4056|
+ComedyCentral|2510|
+ComedyXtra|1813|
+ComedyXtra+1|3607|
+Craft Extra|3012|
+Create&CraftHD|1245|
+Crime+Inv|1448|
+Crime+Inv HD|4088|
+Crime+Inv+1|3620|
+Cruise Channel|3583|
+Cruise1st.tv|1018|
+DAYSTAR HD|5541|
+DMAX|3618|
+DMAX+1|1865|
+Dave|2306|
+Dave HD|3809|
+Dave ja vu|2320|
+Desi Radio|4152|
+Disc.History|2407|
+Disc.History+1|3760|
+Disc.Sci+1|1351|
+Disc.Science|2406|
+Disc.Turbo|2409|
+Disc.Turbo+1|5245|
+Discovery|2401|
+Discovery HD|4003|
+Discovery Shed|4548|
+Discovery+1|2404|
+Disney Chnl|1881|
+Disney Chnl HD|4071|
+Disney Chnl+1|1882|
+Disney Jnr HD|4073|
+Disney Junior|1884|
+Disney Junior+|1890|
+Disney XD|1843|
+Disney XD HD|4070|
+Drama|2612|
+Drama+1|1081|
+Dunamis TV|1191|
+Dunya News|1038|
+E!|1360|
+E! HD|4028|
+E4|1628|
+E4 HD|4076|
+E4+1|3300|
+EWTN Catholic|3117|
+Eden|2302|
+Eden+1|2307|
+Eman Channel|3111|
+Euronews|4604|
+Eurosport 1|1726|
+Eurosport 1 HD|4004|
+Eurosport 2|1841|
+Eurosport 2 HD|4009|
+FOX|1305|
+FOX HD|4023|
+FOX+1|1791|
+FRANCE 24 HD|1121|
+Faith UK|5354|
+Faith World TV|4404|
+Fast & Furious|1811|
+Fast&FuriousHD|4020|
+Film4|1627|
+Film4 HD|4044|
+Film4+1|1629|
+Food Network|3590|
+Food Netwrk+1|3592|
+Foodxp|1227|
+Forces TV|5415|
+FreeSports HD|1150|
+GEO Kahani|4402|
+GEO News|4407|
+GEO TV|4110|
+GINXeSportsTV|1830|
+GN Radio|4156|
+GOD Channel|3105|
+GOLD|2304|
+GOLD HD|6513|
+GOLD+1|2703|
+Gems TV|3010|
+Get Lucky TV|4538|
+Get Sky Products|8459|
+Gold|2903|
+Good News TV|1188|
+HGTV|2301|
+HGTV+1|2309|
+HUM EUROPE|5205|
+HUM Masala|1069|
+HUM News|1134|
+Heart|2909|
+Heart 80s|2928|
+Heart 90s|1083|
+Heart Dance|2920|
+Help and Support|8331|
+Hi-Impact TV|1102|
+Hidayat TV|4549|
+High Street TV 1|3580|
+High Street TV 2|5706|
+High Street TV 3|5212|
+High Street TV 4|3404|
+High Street TV 5|1130|
+Hillsong|1004|
+History|1875|
+History HD|4086|
+History+1|1891|
+History2|1879|
+Hits Radio|5562|
+Hochanda|3357|
+Home & Health|2408|
+HomeHealth+1|2410|
+ID|2413|
+ID+1|5452|
+IQRA BANGLA|3914|
+IQRA TV|6754|
+ITV|6000|
+ITV HD|6504|
+ITV+1|6155|
+ITV2|6240|
+ITV2 HD|6532|
+ITV2+1|6241|
+ITV3|6260|
+ITV3 HD|6533|
+ITV3+1|6261|
+ITV4|6272|
+ITV4 HD|6534|
+ITV4+1|6274|
+ITVBe|6508|
+ITVBe+1|1014|
+Ideal Extra|5740|
+Ideal World HD|1244|
+Inspiration TV|3219|
+Iran Int'l HD|1114|
+Islam Ch Urdu|5211|
+Islam Channel|3214|
+Islam TV|4403|
+JML Direct|5761|
+Jazz FM|4376|
+JewelleryMaker|3354|
+KICC TV|3776|
+KISS|1858|
+KTV|1056|
+Kanshi TV|3753|
+Kerrang!|1853|
+Khushkhabri|3383|
+Kiss|3656|
+LBC|2926|
+LBC News|1205|
+LFCTV HD|3845|
+LaLigaTV HD|1015|
+Lifetime|4320|
+Live 360|1133|
+London Live|5090|
+LoveWorld HD|1228|
+MATV National|3401|
+MTV|2501|
+MTV BASE|2508|
+MTV CLASSIC|2509|
+MTV HD|3831|
+MTV HITS|2506|
+MTV MUSIC|2512|
+MTV MUSIC+1|3508|
+MTV OMG|2511|
+MTV ROCKS|2503|
+MTV+1|2515|
+MUTV|1834|
+MUTV HD|1003|
+Madani Chnl|4460|
+Magic|1877|
+More4|3340|
+More4 HD|4043|
+More4+1|3310|
+Movies 24|4420|
+Movies 24+|4421|
+My Account|8266|
+My Sky|8040|
+NDTV 24x7|1821|
+NHK World HD|3147|
+NOW 70s|3403|
+NOW 80s|4541|
+NOW 90s|3682|
+NTV|4540|
+Nat Geo|1806|
+Nat Geo HD|4031|
+Nat Geo Wild|1847|
+Nat Geo+1|1822|
+NatGeoWild HD|4025|
+New Vision TV|1026|
+News18|5521|
+Newstalk|3616|
+Nick Jr+1|5089|
+Nick Jr.|1857|
+Nick Jr. HD|4039|
+NickJrPawPatrol|4340|
+Nickelodeon|1846|
+Nickelodeon+1|1845|
+NickelodeonHD|4069|
+Nicktoons|1849|
+Noor TV|3715|
+OUTtv|1047|
+PBS America|5500|
+PCNE Chinese|3258|
+POP|3750|
+POP Max|4262|
+POP Max+1|4263|
+POP+1|4216|
+PTC PUNJABI|5715|
+PTV Global|3646|
+Panjab Radio|3363|
+Paramount|1036|
+Paramount+1|1082|
+Pick|1832|
+Pick+1|1836|
+Planet Rock|3475|
+Premier 1 HD|5153|
+Premier 2 HD|1634|
+Primal Living|1129|
+Program Your Remote|8301|
+Psychic Today|3415|
+QUEST|6761|
+QUEST HD|1128|
+QUEST+1|3621|
+QVC|5907|
+QVC Beauty|4105|
+QVC Extra|3359|
+QVC Style|4410|
+Quest Red|2411|
+Quest Red+1|4547|
+ROK|3542|
+RT|3213|
+RT HD|5314|
+RTÉ 2FM|1262|
+RTÉ Lyric fm|1264|
+RTÉ R na G|1263|
+RTÉ Radio 1|1261|
+Racing TV|3636|
+Racing TV HD|5272|
+Radio X|2904|
+Really|2325|
+Record TV HD|3414|
+Republic Bharat|1234|
+Reset your PIN|8346|
+S4C|5701|
+S4C HD|2296|
+SONY MAX|2603|
+SONY MAX 2|5431|
+SONY MAX HD|4046|
+SONY SAB|3631|
+SONY TV|2601|
+SONY TV HD|4045|
+SYFY|2505|
+SYFY HD|4074|
+SYFY+1|2513|
+Samaa|3722|
+Sangat|3355|
+Sanskar|1100|
+Scala Radio|1101|
+Showcase|3206|
+Sikh Channel|3650|
+Sky|1810|
+Sky Action|1001|
+Sky Action HD|4014|
+Sky Arts|1752|
+Sky Arts HD|4063|
+Sky Atlantic|1412|
+Sky Atlantic HD|4053|
+Sky Atlantic+1|1413|
+Sky Comedy|1177|
+Sky Comedy Cinema|1002|
+Sky Comedy HD|1143|
+Sky Crime|2207|
+Sky Crime HD|1212|
+Sky Crime+1|4330|
+Sky Disney|1838|
+Sky Disney HD|4013|
+Sky Drama|1816|
+Sky Drama HD|4016|
+Sky Family|1808|
+Sky Family HD|4018|
+Sky Greats|1815|
+Sky Greats HD|4015|
+Sky Hits|1814|
+Sky Hits HD|4033|
+Sky Intro|1022|
+Sky News|1404|
+Sky News HD|4050|
+Sky One|1402|
+Sky One HD|4061|
+Sky One+1|1403|
+Sky Prem+1|1823|
+Sky Premiere|1409|
+Sky ScFi/HorHD|4017|
+Sky SciFi/Horror|1807|
+Sky Sp Golf|1322|
+Sky Thriller|1818|
+Sky Thriller HD|4062|
+Sky Two|1833|
+Sky Witness|2201|
+Sky Witness HD|4066|
+Sky Witness+1|2205|
+SkyNewsArabia|4645|
+SkyPremiereHD|4021|
+SkySp Action|1333|
+SkySp ActionHD|4022|
+SkySp Arena|3839|
+SkySp ArenaHD|3940|
+SkySp Cricket|1302|
+SkySp F'ball|3838|
+SkySp F'ball HD|3939|
+SkySp F1|1306|
+SkySp F1 HD|3835|
+SkySp Golf HD|4026|
+SkySp Mix|4091|
+SkySp Mix HD|4090|
+SkySp News|1314|
+SkySp News HD|4049|
+SkySp PL|1303|
+SkySp PL HD|4010|
+SkySp Racing|1354|
+SkySp Racing HD|4032|
+SkySpBoxOff|1034|
+SkySpBoxOffHD|1035|
+SkySpCricketHD|4081|
+SkySpMainEv|1301|
+SkySpMainEvHD|4002|
+Smithsonian|1089|
+Smithsonian HD|5135|
+Smooth|2917|
+SonLife|3392|
+Sony Action|3708|
+Sony Action+1|3721|
+Sony Channel|4266|
+Sony Channel+1|5338|
+Sony Classic|3643|
+Sony Classic+1|3751|
+Sony Crime|3358|
+Sony Movies|3709|
+Sony Movies+1|3771|
+Spotlight TV|4933|
+Star Bharat|3608|
+Star GOLD|3613|
+Star GOLD HD|4047|
+Star Plus|1771|
+Star Plus HD|5300|
+Starz TV|3603|
+Studio 66 2|5615|
+Studio 66 3|3530|
+Sukh Sagar|3368|
+TBN UK|3109|
+TCM Movies|5605|
+TCM Movies+1|5275|
+TJC|1033|
+TLC|5450|
+TLC HD|3812|
+TLC+1|5451|
+TRT World|5071|
+TRT World HD|5237|
+TV One|5426|
+TV Warehouse|3632|
+TVC News|5882|
+TVX 40+|3587|
+TVX Bangers|3586|
+TWR|4155|
+Takbeer TV|4408|
+TalkingPictures|5252|
+Television X|1268|
+Thane|3805|
+The Box|1802|
+Tiny Pop|3780|
+Tiny Pop+1|4261|
+Together|1872|
+Trace Latina|4215|
+Trace Urban|3505|
+Trace Vault|3935|
+Travel Channel|5607|
+Travelxp|1226|
+UCB Ireland|2862|
+VICE|1827|
+Venus TV|3720|
+Virgin Radio|1148|
+Vox Africa|3108|
+W|2617|
+W HD|3810|
+W+1|2616|
+WRN Europe|4158|
+Word Network|3205|
+XXX Big&Bouncy|1031|
+XXX College|1028|
+XXX Girl Girl|1029|
+XXX Mums|1754|
+XXXpublicpikups|1030|
+Xpanded TV|4191|
+Xpanded TV2|3421|
+YANGA!|1058|
+YESTERDAY|2305|
+YESTERDAY+1|2615|
+Zee Cinema|2608|
+Zee TV|2607|
+alibi|2303|
+alibi HD|3825|
+alibi+1|2630|
+babes&brazzers|4197|
+horror ch+1|4502|
+horror channel|3605|
+iON TV|4461|
+mta-muslim tv|3201|
+mytv|3731|
+revelation|3116|
+talkSPORT|2902|
