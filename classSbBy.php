@@ -72,7 +72,7 @@ class classSbBy
     if (@file_exists($this->CACHEDIR . $this->channel . '.' . $this->download_date)) {
       $this->isCached = true;
       $this->Content = @file_get_contents($this->CACHEDIR . $this->channel . '.' . $this->download_date);
-      if ($this->LoadNextDateTailFunc) $this->LoadNextDateTail();
+      // if ($this->LoadNextDateTailFunc) $this->LoadNextDateTail();
     } else {
       $CACHEDIR = $_SERVER['DOCUMENT_ROOT'] . dirname($_SERVER['SCRIPT_NAME']) . '/';
       $tent = @file_get_contents($CACHEDIR . 'CHANNELS_LISTS/SBBY.txt');
