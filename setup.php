@@ -6,7 +6,7 @@
 @ini_set('expose_php = off', true);
 $ver = phpversion();
 $proxy = 'http://proxy.ayz.pl/browse.php?u='; // Прокси сервер 
-$DEFAULT_TZ = 'Europe/Kiev'; // часовой пояс для 40001,40003
+$DEFAULT_TZ = 'Europe/Minsk'; // часовой пояс для 40001,40003
 $DEFAULT_TZ40005 = 'Europe/Warsaw'; // часовой пояс для 40005
 $DEFAULT_TZBerlin = 'Europe/Kiev'; // часовой пояс для 40006,40007
 $SERVICE_PASS = 'test'; // обновление  и очистка

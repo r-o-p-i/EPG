@@ -39,7 +39,7 @@ if (@file_exists($TEXT)) {
   $arr = @file($TEXT, FILE_SKIP_EMPTY_LINES | FILE_IGNORE_NEW_LINES);
 }
 if (!file_exists($TEXT) || ($ftime + $TIMESET) < time()) {
-  Up::dream('https://teleguide.info/kanals.html', '#id=\"programm_logo3\"><a.*?kanal(.*?)\.html\" title=\"(.*?)\"#is', $TEXT);
+  Up::sbby($TEXT);
   if (@file_exists($TEXT)) {
     echo '<div class="alert alert-success" role="alert">
             <button type="button" class="close" data-dismiss="alert">×</button>
