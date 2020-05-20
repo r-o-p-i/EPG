@@ -7,7 +7,7 @@ require_once('setup.php');
 @ini_set('display_errors', true);
 @ini_set('html_errors', true);
 @ini_set('expose_php = off', false);
-$allowed_regions = array(40000, 40001, 40003, 40004, 40005, 40006, 40006, 40007, 40009);
+$allowed_regions = array(40000, 40001, 40003, 40004, 40005, 40007, 40009);
 
 if (isset($_POST['password'])) {
   if ($_POST['password'] === $SERVICE_PASS) {
@@ -56,10 +56,6 @@ switch ($reg) {
     require_once('classTeleguide.php');
     $Teleguide = new classTeleguide($channel, $day);
     break;
-  case 40001:;
-    require_once('classSTV.php');
-    $Teleguide = new classSTV($channel, $day);
-    break;
   case 40003:;
     require_once('classVSETV.php');
     $Teleguide = new classVSETV($channel, $day);
@@ -71,10 +67,6 @@ switch ($reg) {
   case 40005:;
     require_once('classTELEMANTV.php');
     $Teleguide = new classTELEMANTV($channel, $day);
-    break;
-  case 40006:;
-    require_once('classSKY_DE.php');
-    $Teleguide = new classSKY_DE($channel, $day);
     break;
   case 40007:;
     require_once('classsPielfilm.php');
