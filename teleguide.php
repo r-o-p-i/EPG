@@ -19,10 +19,10 @@ if (isset($_POST['password'])) {
       guidex::mailru(trim($_POST['mailru']));
       exit;
     }
-    if (isset($_POST['region'])) {
+    /*   if (isset($_POST['region'])) {
       guidex::region(trim($_POST['region']));
       exit;
-    }
+    } */
   }
 }
 
