@@ -21,9 +21,9 @@ $arrLiNav = array(
 	'40005' => 'TeleguideHelper5.php',
 	/* 	'40006' => 'TeleguideHelper6.php', */
 	'40007' => 'TeleguideHelper7.php',
-	'40008' => 'TeleguideHelper8.php',
+	/*'40008' => 'TeleguideHelper8.php',*/
 	'40009' => 'TeleguideHelper9.php',
-	'40010' => 'TeleguideHelper10.php',
+	/*	'40010' => 'TeleguideHelper10.php',*/
 );
 
 if (!isset($_SERVER['SERVER_PORT'])) {
