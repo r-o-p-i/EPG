@@ -1,9 +1,7 @@
 <?php
 
 require_once('classSbBy.php');
-echo 'ok';
 require_once('Up.php');
-
 require_once('load_settings.php');
 //ini_set('memory_limit', '512M');
 
