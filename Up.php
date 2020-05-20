@@ -83,6 +83,7 @@ class Up
     $cont = self::get_cURL('https://tv.sb.by/');
     $utf = explode('<div class="col-md-6 mb-2 tv-list">', $cont);
     $cont = strstr($utf[1], '<div class="col-3 d-none d-lg-block overflow-hidden shadow-bottom pr-0">', true);
+    echo $cont;
     preg_match_all('#stacje\/(.*?)\".*?>(.*?)<#is', $cont, $matches);
     $cont = "";
     for ($i = 0; $i < count($matches[1]); $i++) {

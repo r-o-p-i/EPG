@@ -1,9 +1,12 @@
 <?php
-<?php
+
 require_once('classSbBy.php');
+echo 'ok';
 require_once('Up.php');
+
 require_once('load_settings.php');
 //ini_set('memory_limit', '512M');
+
 $ver = phpversion();
 $REG = 40009;
 $Title = 'SBBY';
@@ -139,6 +142,3 @@ if (isset($_POST['channel'])) {
      <p><textarea class="form-control" name="Text3"  rows="15">' . $cont3 . '</textarea></p>';
 }
 footerHtml($SCRIPT);
-
-
-?>

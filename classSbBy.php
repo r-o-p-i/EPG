@@ -4,7 +4,7 @@ include_once('setup.php');
 @error_reporting(7);
 @ini_set('display_errors', true);
 @ini_set('html_errors', true);
-@ini_set('expose_php = off', true);
+@ini_set('expose_php = off', false);
 
 class classsSbBy
 {
@@ -29,7 +29,7 @@ class classsSbBy
     $this->channel = $channel;
     $this->isCached = false;
     $this->kill_age_restriction = $kill_age_restriction;
-    $this->CACHEDIR = $_SERVER['DOCUMENT_ROOT'] . dirname($_SERVER['SCRIPT_NAME']) . '/PROGCACHE_SPIELFILM/';
+    $this->CACHEDIR = $_SERVER['DOCUMENT_ROOT'] . dirname($_SERVER['SCRIPT_NAME']) . '/PROGCACHE_SBBY/';
     if (!is_dir($this->CACHEDIR)) {
       mkdir($this->CACHEDIR);
       @file_put_contents($this->CACHEDIR . 'index.html', '');
