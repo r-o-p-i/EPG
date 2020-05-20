@@ -4,6 +4,16 @@
 @ini_set('display_errors', true);
 @ini_set('html_errors', true);
 @ini_set('expose_php = off', false);
+$debug = true;
+function debug($text)
+{
+  global $debug;
+  if ($debug == true) {
+    print('<pre>'
+      . $text .
+      '</pre>');
+  }
+}
 $ver = phpversion();
 $proxy = 'http://proxy.ayz.pl/browse.php?u='; // Прокси сервер 
 $DEFAULT_TZ = 'Europe/Minsk'; // часовой пояс для 40001,40003

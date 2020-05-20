@@ -6,7 +6,7 @@ include_once('setup.php');
 @ini_set('html_errors', true);
 @ini_set('expose_php = off', false);
 
-class classsSbBy
+class classSbBy
 {
 
   public $CACHEDIR = '';
@@ -36,6 +36,7 @@ class classsSbBy
       @file_put_contents($this->CACHEDIR . 'index.php', "<?php\r\n?>");
       @file_put_contents($this->CACHEDIR . 'robots.txt', "User-agent: *\r\nDisallow: \/\r\n");
     }
+
     if ($day == -1) {
       $this->day = (int) (time() / 86400);
     } else {
@@ -45,8 +46,12 @@ class classsSbBy
     $this->tempDate = new DateTime(null, new DateTimezone($DEFAULT_TZ));
     $this->tempDate->setTimestamp($this->day * 86400);
     $this->prog_date = $this->tempDate->format('Ymd');
+
     $this->download_date = $this->tempDate->format('Ymd');
-    $this->download = $this->tempDate->format('Y-m-d');
+    $this->downloadstart = mktime(0, 0, 0, $this->tempDate->format('m'), $this->tempDate->format('d'), $this->tempDate->format('Y'));
+    $this->downloadend =  mktime(0, 0, 0, $this->tempDate->format('m'), $this->tempDate->format('d') + 1, $this->tempDate->format('Y'));
+    // debug(date("Y.m.d-H:i", $this->downloadstart));
+    //debug(date("Y.m.d-H:i", $this->downloadend));
   }
   function Get()
   {
@@ -73,10 +78,8 @@ class classsSbBy
       $tent = @file_get_contents($CACHEDIR . 'CHANNELS_LISTS/SBBY.txt');
       $r = "#\|" . $this->channel . "\|(.*?)\|#m";
       preg_match_all($r, $tent, $m1);
-      $cont = self::get_cURL('https://m.tvspielfilm.de/tv-programm/sendungen/' . $m1[1][0] . '.html?time=day&date=' . $this->download);
-      $utf = explode('<div class="channels component headline">', $cont);
-      $count = strstr($utf[1], '<div class="row component headline">', true);
-      preg_match_all('#class=\"t\">(\d+\:\d+)\s-.*?<strong class=\"tv-tip-heading\">(.*?)<\/strong>#is', $count, $TITLES);
+      $cont = self::get_cURL('https://tv.sb.by/ajax/?CHANNEL_ID=' . $this->channel . '&DATE_START=' . $this->downloadstart . '&DATE_END=' . $this->downloadend);
+      preg_match_all('#content=\".*?\>(\d+:\d+).*?<\/time>.*?\"name\"\>(.*?)<#is', $cont, $TITLES);
       count($TITLES[1]);
       for ($i = 0; $i < count($TITLES[1]); $i++) {
         $TITLES[2][$i] = self::txt($TITLES[2][$i]);
@@ -159,9 +162,9 @@ class classsSbBy
           $tempDate = new DateTime(null, new DateTimezone($DEFAULT_TZ));
           $tempDate->setTimestamp($lasttimestamp);
           $firstdt = $tempDate->format('Y-m-d');
-          $temp = new DateTime($firstdt . ' 04:00', new DateTimezone($DEFAULT_TZ));
+          $temp = new DateTime($firstdt . ' 01:00', new DateTimezone($DEFAULT_TZ));
           $firsttimestamp = $temp->getTimestamp();
-          $tempTeleguide = new classsPielfilm($this->channel, $this->day - 1, $this->kill_age_restriction, false);
+          $tempTeleguide = new classSbBy($this->channel, $this->day - 1, $this->kill_age_restriction, false);
           $cont = $tempTeleguide->Get();
           preg_match_all('/([0-9]{10})\|([^\|]{0,})\r\n/', $cont, $matches);
           for ($i = 0; $i < count($matches[1]); $i++) {

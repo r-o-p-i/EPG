@@ -1,6 +1,7 @@
 <?php
 require_once('setup.php');
 require_once('CleanUp.php');
+require_once('Up.php');
 @session_start();
 @error_reporting(7);
 @ini_set('display_errors', true);
@@ -30,7 +31,7 @@ if (!isset($_SERVER['SERVER_PORT'])) {
 	$PORT = '';
 } else {
 	$PORT = $_SERVER['SERVER_PORT'];
-	if ($PORT <> '80') {
+	if ($PORT <> '80' && $PORT <> '443') {
 		$PORT = ':' . $PORT;
 	} else {
 		$PORT = '';

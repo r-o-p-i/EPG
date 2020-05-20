@@ -81,11 +81,8 @@ class Up
   public static function sbby($TEXT)
   {
     $cont = self::get_cURL('https://tv.sb.by/');
-
     $utf = explode('<div class="col-lg-12 no-pad btn-header-links padding-align top-adjust content">', $cont);
-    // echo $utf[0];
     $cont = strstr($utf[1], '<div class="col-3 d-none d-lg-block overflow-hidden shadow-bottom pr-0">', true);
-    // echo $cont;
     preg_match_all('#<img data-src=\"(.*?)\".*?title=\"(.*?)\".*?CHANNEL_ID=(.*?)&#is', $cont, $matches);
     $cont = "";
     for ($i = 0; $i < count($matches[1]); $i++) {
@@ -124,7 +121,7 @@ class Up
       for ($i = 0; $i < count($ChannelsInfo); $i++) {
         $cont = $cont . ($ChannelsInfo[$i]->Name . "|" . $ChannelsInfo[$i]->ID . "|\r\n");
       }
-      //echo file_get_contents('TELEMAN.txt');
+
       file_put_contents($TEXT, $cont);
     }
     return;
@@ -184,7 +181,7 @@ class Up
     $jsons = json_decode($cont, true);
     $cont = "";
     count($jsons['services']);
-    // foreach ($jsons['services'] as $value) {
+
     for ($i = 0; $i < count($jsons['services']); $i++) {
       $tempChannel = new ChannelClass();
       $tempChannel->Name = $jsons['services'][$i]['t'];

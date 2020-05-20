@@ -1,10 +1,7 @@
 <?php
-
 require_once('classSbBy.php');
-require_once('Up.php');
 require_once('load_settings.php');
 //ini_set('memory_limit', '512M');
-
 $ver = phpversion();
 $REG = 40009;
 $Title = 'SBBY';
@@ -19,18 +16,12 @@ if (isset($pass1)) {
   if ($pass1 === $SERVICE_PASS) {
     Up::sbby($TEXT);
     if (@file_exists($TEXT)) {
-      echo '<div class="alert alert-success"  role="alert">
-      <button type="button" class="close" data-dismiss="alert">×</button>
-      <strong>База обновлена !</strong> </div>';
+      successBaseUpdateHtml();
     } else {
-      echo '<div class="alert alert-warning" role="alert">
-      <button type="button" class="close" data-dismiss="alert">×</button>
-      <strong>Проблема с обновлением списка каналов !</strong> </div>';
+      failBaseUpdateHtml();
     }
   } else {
-    echo '<div class="alert alert-danger" role="alert">
-      <button type="button" class="close" data-dismiss="alert">×</button>
-      <strong>Внимание!</strong> Неверный пароль !</div>';
+    badPasswordHtml();
   }
 }
 if (@file_exists($TEXT)) {
@@ -42,14 +33,10 @@ if (@file_exists($TEXT)) {
 if (!file_exists($TEXT) || ($ftime + $TIMESET) < time()) {
   Up::sbby($TEXT);
   if (@file_exists($TEXT)) {
-    echo '<div class="alert alert-success" role="alert">
-            <button type="button" class="close" data-dismiss="alert">×</button>
-             <strong>База обновлена !</strong> </div>';
+    successBaseUpdateHtml();
     alerton();
   } else {
-    echo '<div class="alert alert-warning" role="alert">
-          <button type="button" class="close" data-dismiss="alert">×</button>
-          <strong>Проблема с обновлением списка каналов !</strong> </div>';
+    failBaseUpdateHtml();
   }
 }
 print '<b style="font-size: 20px; text-shadow: 1px 1px 7px #e70e4b;color: #ffffff;">  Всего каналов: <font style="font-size: 25px; text-shadow: 1px 1px 1px #f2f6fc;color:#ea0a07">' . count($arr) . '</font>     Последнее обновление скрипта:  <font style="font-size: 25px; text-shadow: 1px 1px 1px #f2f6fc;color:#ea0a07">' . date("Y-m-d H:i", ($ftime + 3600 * $TIMES)) . '</font></b><br><br>
@@ -57,9 +44,10 @@ print '<b style="font-size: 20px; text-shadow: 1px 1px 7px #e70e4b;color: #fffff
 
 print '<select class="form-control form-control-sm" name="channel">';
 for ($i = 0; $i < count($arr); $i++) {
-  preg_match('#^(.*?)\|(.*?)\|#is', $arr[$i], $matches);
+  preg_match('#^(.*?)\|(.*?)\|(.*?)\|#is', $arr[$i], $matches);
   $channels[$i][1] = $matches[1];
   $channels[$i][2] = $matches[2];
+  $channels[$i][3] = $matches[3];
   if ($i == $cur_id) {
     print '<option selected value="' . $i . '">' . $channels[$i][1] . '</option>';
   } else {
@@ -97,7 +85,7 @@ if (isset($_POST['timeshift'])) {
 echo '<input class="btn btn-primary" type="submit" value="Получить код!"> </form> <hr>
 <div class="accordion">';
 if (isset($_POST['channel'])) {
-  $Logo = "http://" . $_SERVER['SERVER_NAME'] . $CURDIR . "LOGOS/40000/" . $channels[$_POST['channel']][2] . ".png";
+  $Logo = $channels[$_POST['channel']][3];
   if (isset($Logo)) {
     echo '<br><img src=' . $Logo . ' width="70" height="70"><br><br>';
     $LogoXML = "     <logo_30x30><![CDATA[" . $Logo . "]]></logo_30x30>";
@@ -126,10 +114,11 @@ if (isset($_POST['channel'])) {
     <p><textarea class="form-control"  rows="8">' . $cont . '</textarea></p>';
   $cont3 = "";
   if ($age_restr == 1) {
-    $Teleguide = new classTeleguide($channels[$_POST['channel']][2], -1, true);
+    $Teleguide = new classSbBy($channels[$_POST['channel']][2], -1, true);
   } else {
-    $Teleguide = new classTeleguide($channels[$_POST['channel']][2], -1, false);
+    $Teleguide = new classSbBy($channels[$_POST['channel']][2], -1, false);
   }
+
   $cont3 = $Teleguide->Get();
   $cont4 = $Teleguide->UserFriendlyContent($_POST['timeshift']);
   $p = ($cont4 != "") ? '<h3> Тест </h3>' : '<h4> Данные не получены</h4>';

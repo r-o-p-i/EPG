@@ -20,7 +20,7 @@ if (isset($_POST['pass']) && isset($_POST['all'])) {
       $all = false;
     }
     $C = $_SERVER['DOCUMENT_ROOT'] . dirname($_SERVER['SCRIPT_NAME']) . '/PROGCACHE_';
-    $name = array("GUIDE", "STV", "VSETV", "TELEMANTV", "SKY_DE", "SKY", "SPIELFILM");
+    $name = array("GUIDE", "STV", "VSETV", "TELEMANTV", "SKY_DE", "SKY", "SPIELFILM", "SBBY");
     for ($i = 0; $i < count($name); $i++) {
       CleanUp::Clean($C . $name[$i] . '/');
     }
@@ -34,16 +34,17 @@ class CleanUp
   {
     $all = true;
     $C = $_SERVER['DOCUMENT_ROOT'] . dirname($_SERVER['SCRIPT_NAME']) . '/PROGCACHE_';
-    $name = array("GUIDE", "STV", "VSETV", "TELEMANTV", "SKY_DE", "SKY", "SPIELFILM");
+    $name = array("GUIDE", "STV", "VSETV", "TELEMANTV", "SKY_DE", "SKY", "SPIELFILM", "SBBY");
     for ($i = 0; $i < count($name); $i++) {
       CleanUp::Clean($C . $name[$i] . '/');
     }
     Up::dream('http://www.teleguide.info/kanals.html', '#id=\"programm_logo3\"><a href=\"\/kanal(.*?)\.html\" title=\"(.*?)\"#is', 'CHANNELS_LIST/TELEGUIDE.txt');
-    Up::stv();
+    // Up::stv();
     Up::dream('http://www.vsetv.com/channels.html', '/\<option value=channel_([0-9]{1,})\>([^\<]{1,})\<\/option>/', 'CHANNELS_LIST/VSETV.txt');
-    Up::skydelist();
-    Up::teleman();
-    Up::SPIELFILM();
+    //Up::skydelist();
+    Up::teleman('CHANNELS_LIST/TELEMAN.txt');
+    Up::SPIELFILM('CHANNELS_LIST/SPIELFILM.txt');
+    Up::sbby('CHANNELS_LIST/SBBY.txt');
     return true;
   }
   public static function Clean($directory)

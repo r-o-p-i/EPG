@@ -17,18 +17,12 @@ if (isset($pass1)) {
   if ($pass1 === $SERVICE_PASS) {
     Up::dream('https://teleguide.info/kanals.html', '#id=\"programm_logo3\"><a.*?kanal(.*?)\.html\" title=\"(.*?)\"#is', $TEXT);
     if (@file_exists($TEXT)) {
-      echo '<div class="alert alert-success"  role="alert">
-      <button type="button" class="close" data-dismiss="alert">×</button>
-      <strong>База обновлена !</strong> </div>';
+      successBaseUpdateHtml();
     } else {
-      echo '<div class="alert alert-warning" role="alert">
-      <button type="button" class="close" data-dismiss="alert">×</button>
-      <strong>Проблема с обновлением списка каналов !</strong> </div>';
+      failBaseUpdateHtml();
     }
   } else {
-    echo '<div class="alert alert-danger" role="alert">
-      <button type="button" class="close" data-dismiss="alert">×</button>
-      <strong>Внимание!</strong> Неверный пароль !</div>';
+    badPasswordHtml();
   }
 }
 if (@file_exists($TEXT)) {
@@ -40,14 +34,10 @@ if (@file_exists($TEXT)) {
 if (!file_exists($TEXT) || ($ftime + $TIMESET) < time()) {
   Up::dream('https://teleguide.info/kanals.html', '#id=\"programm_logo3\"><a.*?kanal(.*?)\.html\" title=\"(.*?)\"#is', $TEXT);
   if (@file_exists($TEXT)) {
-    echo '<div class="alert alert-success" role="alert">
-            <button type="button" class="close" data-dismiss="alert">×</button>
-             <strong>База обновлена !</strong> </div>';
+    successBaseUpdateHtml();
     alerton();
   } else {
-    echo '<div class="alert alert-warning" role="alert">
-          <button type="button" class="close" data-dismiss="alert">×</button>
-          <strong>Проблема с обновлением списка каналов !</strong> </div>';
+    failBaseUpdateHtml();
   }
 }
 print '<b style="font-size: 20px; text-shadow: 1px 1px 7px #e70e4b;color: #ffffff;">  Всего каналов: <font style="font-size: 25px; text-shadow: 1px 1px 1px #f2f6fc;color:#ea0a07">' . count($arr) . '</font>     Последнее обновление скрипта:  <font style="font-size: 25px; text-shadow: 1px 1px 1px #f2f6fc;color:#ea0a07">' . date("Y-m-d H:i", ($ftime + 3600 * $TIMES)) . '</font></b><br><br>
