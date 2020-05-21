@@ -13,7 +13,7 @@ class guidex
   function Clean()
   {
     $C = $_SERVER['DOCUMENT_ROOT'] . dirname($_SERVER['SCRIPT_NAME']) . '/PROGCACHE_';
-    $name = array("GUIDE", "STV", "VSETV", "TELEMANTV", "SKY_DE", "SKY", "SBBY", "SPIELFILM");
+    $name = array("GUIDE", "STV", "VSETV", "TELEMANTV", "TRICOLOR", "SKY_DE", "SKY", "SBBY", "SPIELFILM");
     for ($i = 0; $i < count($name); $i++) {
       self::delTre($C . $name[$i] . '/');
     }
@@ -33,6 +33,7 @@ class guidex
     Up::teleman('CANNELS_LISTS/TELEMAN.txt');
     Up::SPIELFILM('CANNELS_LISTS/SPILEFILM.txt');
     Up::sbby('CANNELS_LISTS/SBBY.txt');
+    Up::tricolor('CANNELS_LISTS/TRICOLOR.txt');
     return true;
   }
   function delTre($dir)

@@ -7,7 +7,7 @@ require_once('setup.php');
 @ini_set('display_errors', true);
 @ini_set('html_errors', true);
 @ini_set('expose_php = off', false);
-$allowed_regions = array(40000, 40001, 40003, 40004, 40005, 40007, 40009);
+$allowed_regions = array(40000, 40001, 40003, 40004, 40005, 40007, 40009, 40010);
 
 if (isset($_POST['password'])) {
   if ($_POST['password'] === $SERVICE_PASS) {
@@ -75,6 +75,10 @@ switch ($reg) {
   case 40009:;
     require_once('classSbBy.php');
     $Teleguide = new classSbBy($channel, $day);
+    break;
+  case 40010:;
+    require_once('classTricolor.php');
+    $Teleguide = new classTricolor($channel, $day);
     break;
   default:;
     die();

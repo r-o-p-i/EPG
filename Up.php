@@ -1,10 +1,10 @@
 <?php
 require_once('setup.php');
 @error_reporting(7);
-@ini_set('display_errors', true);
-@ini_set('html_errors', true);
+@ini_set('display_errors', false);
+@ini_set('html_errors', false);
 @ini_set('expose_php = off', true);
-
+//ini_set('memory_limit', '512M');
 class ChannelClass
 {
   public $Name = '';
@@ -77,7 +77,50 @@ class Up
     }
     return;
   }
+  public static function tricolor($TEXT)
+  {
+    $cont_logo = self::post_cURL("https://www.tricolor.tv/ajax/channel-new/list.php", '', "group=0&fullhd=0&ultrahd=0&online=0");
+    $cont = self::get_cURL('https://www.tricolor.tv/program/');
+    $utf = explode('<div class="favorite-content">', $cont);
+    $cont = strstr($utf[1], '<ul class="favorite-controls">', true);
+    preg_match_all('#value="(.*?)\".*?<\/i>(.*?)<\/label>#is', $cont, $matches);
+    preg_match_all('#title=\"(.*?)\".*?src=\"(.*?)\"#is', $cont_logo, $matches1);
 
+
+    $cont = "";
+    for ($i = 0; $i < count($matches[0]); $i++) {
+
+      $tempChannel = new ChannelClass();
+      $tempChannel->ID = $matches[1][$i];
+      $tempChannel->Name = str_replace(array('«', '»'), '', trim($matches[2][$i]));
+      //  $tempChannel->LOGO =   $matches[1][$i];
+      $ChannelsInfo[$i] = $tempChannel;
+    }
+    for ($i = 0; $i < count($matches1[0]); $i++) {
+
+      $tempChannel1 = new ChannelClass();
+      // $tempChannel1->ID = $matches1[1][$i];
+      $tempChannel1->Name = str_replace(array('«', '»'), '', trim($matches1[1][$i]));
+      $tempChannel1->LOGO =  "http://www.tricolor.tv" . $matches1[2][$i];
+      $ChannelsInfo1[$i] = $tempChannel1;
+    }
+    if (isset($ChannelsInfo)) {
+      sort($ChannelsInfo);
+      sort($ChannelsInfo1);
+      // debug($ChannelsInfo1);
+      for ($i = 0; $i < count($ChannelsInfo); $i++) {
+        for ($j = 0; $j < count($ChannelsInfo1); $j++) {
+          if ($ChannelsInfo[$i]->Name == $ChannelsInfo1[$j]->Name) {
+            $ChannelsInfo[$i]->LOGO = $ChannelsInfo1[$j]->LOGO;
+          }
+        }
+        $cont = $cont . ($ChannelsInfo[$i]->Name . "|" . $ChannelsInfo[$i]->ID . "|" . $ChannelsInfo[$i]->LOGO . "|\r\n");
+      }
+
+      file_put_contents($TEXT, $cont);
+    }
+    return;
+  }
   public static function sbby($TEXT)
   {
     $cont = self::get_cURL('https://tv.sb.by/');
@@ -259,7 +302,10 @@ class Up
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $data);
     curl_setopt($ch, CURLOPT_HEADER, false);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $head);
+    if ($head) {
+      curl_setopt($ch, CURLOPT_HTTPHEADER, $head);
+    }
+
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $tost);
