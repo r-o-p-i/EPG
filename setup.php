@@ -9,9 +9,9 @@ function debug($text)
 {
   global $debug;
   if ($debug == true) {
-    print_r('<pre style="bakcground:#000;">'
-      . $text .
-      '</pre>');
+    echo'<pre style="bakcground:#000;">'
+      . print_r($text) .
+      '</pre>';
   }
 }
 $ver = phpversion();
