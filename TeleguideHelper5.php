@@ -25,12 +25,13 @@ if (isset($pass1)) {
 if (@file_exists($TEXT)) {
   global $TIMESET;
   $ftime = filemtime($TEXT);
+  //echo $ftime + $TIMESET . "/" . time();
   $arr = @file($TEXT, FILE_SKIP_EMPTY_LINES | FILE_IGNORE_NEW_LINES);
 }
 if (!file_exists($TEXT) || ($ftime + $TIMESET) < time()) {
-  if (!file_exists($TEXT)) {
-    Up::teleman($TEXT);
-  }
+  // if (!file_exists($TEXT)) {
+  Up::teleman($TEXT);
+  //  }
   if (@file_exists($TEXT)) {
     successBaseUpdateHtml();
     alerton();
