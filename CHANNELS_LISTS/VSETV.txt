@@ -223,13 +223,13 @@ Gametoon|1311|
 Genuine TV|1481|
 GlobalStar TV|1181|
 Gulli Girl|596|
-H2|1252|
 HD Media|1446|
 HDFASHION & Lifestyle|914|
 HDL|459|
 History Европа|1465|
 History Россия|902|
 History Россия HD|905|
+History2 Россия|1252|
 Hollywood|1390|
 Hollywood HD|1391|
 Home 4K|1424|
@@ -432,10 +432,8 @@ UA:Кропивницький (на укр.)|1328|
 UA:Культура|285|
 UA:Культура (на укр.)|494|
 UA:Одесса (на укр.)|1329|
-UA:Перший (аналог)|540|
-UA:Перший (аналог) (на укр.)|592|
-UA:Перший (спутник)|1249|
-UA:Перший (спутник) (на укр.)|1250|
+UA:Перший|1249|
+UA:Перший (на укр.)|1250|
 UA:Перший Digital|890|
 UA:Перший Digital (на укр.)|891|
 UA:Чернігів (на укр.)|1330|
@@ -453,6 +451,8 @@ UTV (Орск)|1300|
 UTV (Салават)|1043|
 UTV (Стерлитамак)|1042|
 UTV HD|1032|
+Ukrainian Fashion|1525|
+Ukrainian Fashion (на укр.)|1526|
 Ultra 4K Extreme|1393|
 Univer TV|1222|
 VH1 Classic Europe|227|
