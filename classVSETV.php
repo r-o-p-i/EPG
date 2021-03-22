@@ -111,6 +111,8 @@ class classVSETV {
       $utf = explode('<div class="chnum">1</div>', $cont);
       $cont = strstr($utf[1], '<div class="adver">', true);
       $cont = iconv("windows-1251","utf-8",$cont);
+      $cont = str_replace('<img src="/pic/ox.gif">', "0", $cont);
+      $cont = str_replace('<img src="/pic/sv.gif">', "5", $cont);
       $a[0] = "<a ".$j[$m[1][0]]."></a>";  $a[1] = "<a ".$j[$m[1][1]]."></a>";  $a[2] = "<a ".$j[$m[1][2]]."></a>";  $a[3] = "<a ".$j[$m[1][3]]."></a>";  $a[4] = "<a ".$j[$m[1][4]]."></a>";  $a[5] = "<a ".$j[$m[1][5]]."></a>";
       $c = array ("~$a[0]~","~$a[1]~","~$a[2]~","~$a[3]~","~$a[4]~","~$a[5]~","~<img.*?>~","~&.*?;~","~<a href=.*?>~","~<div id=desc.*?>~"); 
       $r = array ($m[2][0],$m[2][1],$m[2][2],$m[2][3],$m[2][4],$m[2][5],"","","","");
@@ -263,4 +265,3 @@ $string = preg_replace($ch, $r, $s);
 return $string;
  }
 }
-?>
